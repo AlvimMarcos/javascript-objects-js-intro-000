@@ -13,3 +13,7 @@ function updatePlaylist (playlist, artistName, songTitle ) {
   playlist.skidRow = 'Eighteen';
   return playlist();
 }
+
+function removeFromPlaylist () {
+   return playlist.slice()
+}
