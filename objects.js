@@ -14,6 +14,6 @@ function updatePlaylist (playlist, artistName, songTitle ) {
   return playlist();
 }
 
-function removeFromPlaylist () {
-   return playlist.slice()
+function removeFromPlaylist (playlist, artistName,) {
+   return playlist.slice(metallica, "Fuel")
 }
