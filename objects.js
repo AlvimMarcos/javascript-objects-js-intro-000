@@ -2,12 +2,12 @@
 
 var meals = new Object(); */
 
-
-var playlist = {
+var playlist = new Object({keys: '0'});
+/*var playlist = {
   metallica: "Fuel",
   ozzy: "Paranoid",
   guns: "Patience"
-}
+}*/
 
 function updatePlaylist (playlist, artistName, songTitle ) {
   playlist.skidRow = 'Eighteen';
