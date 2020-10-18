@@ -1,6 +1,6 @@
 /*var meals ={}
 
-var meals = new Object(); 
+var meals = new Object();
 
 var playlist = new Object({keys: '0'});
 var playlist = {
