@@ -11,7 +11,7 @@ var playlist = {
 
 function updatePlaylist (playlist, artistName, songTitle ) {
   playlist.skidRow = 'Eighteen';
-  return playlist();
+  //return playlist();
 }
 
 function removeFromPlaylist (playlist, artistName,) {
